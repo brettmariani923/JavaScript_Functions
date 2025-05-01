@@ -132,17 +132,17 @@ function checkData(planLimit, day, usage) {
     let status = "";
 
     if (averageUsage > dailyLimit) {
-        status = `You are EXCEEDING your average daily use (${averageUsage.toFixed(2)} GB/day).
-Continuing this high usage, you'll exceed your data plan by ${overBy.toFixed(2)} GB.
-To stay below your data plan, use no more than ${(dailyLimit).toFixed(2)} GB/day.`;
+        status = `You are EXCEEDING your average daily use (${averageUsage} GB/day).
+Continuing this high usage, you'll exceed your data plan by ${overBy} GB.
+To stay below your data plan, use no more than ${(dailyLimit)} GB/day.`;
     } else if (averageUsage < dailyLimit) {
-        status = `You are UNDER your average daily use (${averageUsage.toFixed(2)} GB/day).
-Continuing this usage, you'll be under your data plan by ${Math.abs(overBy).toFixed(2)} GB.
-To stay below your data plan, use no more than ${(dailyLimit).toFixed(2)} GB/day.`;
+        status = `You are UNDER your average daily use (${averageUsage} GB/day).
+Continuing this usage, you'll be under your data plan by ${overBy} GB.
+To stay below your data plan, use no more than ${(dailyLimit)} GB/day.`;
     } else {
-        status = `You are AT your average daily use (${averageUsage.toFixed(2)} GB/day).
+        status = `You are AT your average daily use (${averageUsage} GB/day).
 Continuing this usage, you'll exactly meet your data plan.
-To stay below your data plan, use no more than ${(dailyLimit).toFixed(2)} GB/day.`;
+To stay below your data plan, use no more than ${(dailyLimit)} GB/day.`;
     }
 
     console.log(`${day} days used, ${daysRemaining} days remaining`);

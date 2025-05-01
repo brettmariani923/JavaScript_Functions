@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,6 +29,10 @@
               "Name": "ST:1:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "app.js",
@@ -36,7 +40,7 @@
               "RelativeDocumentMoniker": "app.js",
               "ToolTip": "C:\\Users\\brett\\source\\repos\\JavaScript_Functions\\app.js",
               "RelativeToolTip": "app.js",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAUwJoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwIsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-30T23:03:04.947Z",
               "EditorCaption": ""
